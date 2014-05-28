@@ -1,5 +1,6 @@
 require "dradis/ip_list_upload/actions"
 require "dradis/ip_list_upload/version"
+require "dradis/ip_list_upload/meta"
 
 module Dradis
   module IpListUpload
