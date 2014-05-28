@@ -4,7 +4,7 @@ require "dradis/ip_list_upload/meta"
 
 module Dradis
   module IpListUpload
-    class Configuration < Dradis::Core::Configurator
+    class Configuration < ::Configurator
       configure :namespace => 'ip_list_upload'
       setting :top_node, :default => 'hosts'
 
